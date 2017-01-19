@@ -2,6 +2,7 @@ package com.caixiaotong.fire.ui.main.activity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
 import com.caixiaotong.fire.R;
@@ -39,6 +40,13 @@ public class MainActivity extends BaseActivity {
     private static  int TabLayoutHeight;
 
     private CareMainFragment careMainFragment;
+
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
     @Override
     public void initView() {
 
